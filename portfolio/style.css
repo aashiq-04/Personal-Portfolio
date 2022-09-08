@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #212121;
+}
+h2{
+    color: #fff;
+}
+.main{
+    width: 100%;
+    height: 40em;
+    position: relative;
+    background: #212121;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content:space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 2px 20px;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #FFA500;
+}
+#h1{
+    color: #fff;
+}
+.detail{
+    margin-left: 10%;
+    margin-top: 13%;
+}
+.detail h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+
+}
+span:hover{
+    color: white;
+}
+.detail p{
+    font-size: large;
+    font-weight: 500;
+    color: #fff;
+    line-height: 22px;
+}
+.detail a{
+    background-color: #fff;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+     
+}
+.top{
+    border:thick double orange; 
+}
+.res{
+    
+    transition:ease-in 0.15s;
+}
+.res:hover{
+    font-size: 18px;
+    background-color:#FFA500;
+}
+
+.pic1{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.pic1:hover  .hov{
+    opacity: 0.3;
+
+}
+.txt{
+    position: relative;
+    left: 955px;
+    top: 25px;    
+}
+.pics{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.pics img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+
+}
+.pics:hover .pic1{
+    bottom: 35px;
+}
+.abt{
+    width: 100%;
+    height: 60vh;
+    
+}
+.pics1{
+    display: flex;
+    justify-content: center;
+    
+}
+.ab{
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid orange;
+    border-bottom :3px solid orange;
+}
+ h2:after,h2:before{
+    
+    display: flex;
+    justify-content: center;
+    color:  orange;
+}  
+.abt div p{
+    
+    text-align: center;
+    margin: 5px 100px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.la{
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid orange;
+    border-bottom :3px solid orange;
+}
+.con{
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    height: 40vh;
+    /* border-top: 3px solid orange; */
+    border-bottom: 3px solid orange;
+}
+.con p{
+    
+    text-align: center;
+    margin: 5px 100px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
